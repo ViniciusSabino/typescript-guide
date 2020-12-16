@@ -1,14 +1,14 @@
 // ------------- Básico
 
-// boolean 
+//---- boolean 
 
 const isThisAGoodDoc: boolean = true;
 
-// number
+//---- number
 
 const fightingPower: number = 9001;
 
-// string
+//---- string
 
 const rocketseat: string = 'Are you ready for launch?';
 
@@ -20,12 +20,12 @@ const rocketseat: string = 'Are you ready for launch?';
 
 // ----------- Avançado
 
-// Arrays 
+//----- Arrays 
 
 const educationTeam: string[] = ['Vinne', 'Dani', 'Doge'];
 const educationTeam2: Array<string> = ['Vinne', 'Dani', 'Doge'];
 
-// Tuples
+// -----Tuples
 
 /**
  * Utilizado quando queremos trabalhar com arrays que sabemos exatamente quantos elementos ele terá, mas que não serão necessiariamente do mesmo tipo. Exemplo: 
@@ -33,7 +33,7 @@ const educationTeam2: Array<string> = ['Vinne', 'Dani', 'Doge'];
 
 const eitaGiovanna: [string, boolean] = ['O forninho caiu?', true];
 
-// Enums: Utilizado quando queremos dar um nome mais amiguavel a um conjunt de valores. Exemplo:
+//------ Enums: Utilizado quando queremos dar um nome mais amiguavel a um conjunt de valores. Exemplo:
 
 enum Techs {
   React, 
@@ -54,4 +54,4 @@ const teste: Status = Status.approved;
 console.log(Status.approved) // APPROVED
 console.log(teste) // APPROVED
 
-// Objetos: Apesar de ser possivel descrever um objeto utilizando sisplemente o objet, não é recomendado pois dessa forma não conseguimos definir os campos, a sua forma (shape)
+//---- Objetos: Apesar de ser possivel descrever um objeto utilizando sisplemente o objet, não é recomendado pois dessa forma não conseguimos definir os campos, a sua forma (shape)
