@@ -4,3 +4,7 @@
 let age: number | string = 30;
 age = "30";
 age = false; // erro - Type 'boolean' is not assignable to type 'string | number'.ts(2322)
+age = 30;
+age = ["1"]
+
+

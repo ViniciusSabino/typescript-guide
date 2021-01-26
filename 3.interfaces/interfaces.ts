@@ -1,4 +1,5 @@
-//---- Interfaces: Lembra que falamos que representar um objeto como object não é legal? É ai que as interfaces entram e nos ajudam (bastante). Exemplo:
+//---- Interfaces: Lembra que falamos que representar um objeto como object não é legal? 
+//É ai que as interfaces entram e nos ajudam (bastante). Exemplo:
 
 interface EveryExampleInOne {
   str: string;
@@ -16,7 +17,7 @@ interface Dob {
   owner?: string;
 }
 
-// Onde temos temos que o nome do cachorro é obrigatório, mas o nome do dono é opcional
+// Onde temos que o nome do cachorro é obrigatório, mas o nome do dono é opcional
 
 // -------Dynamic Properties 
 // Além disso, outro caso interessante é quando além das propriedades que declaramos, queremos deixar em aberto que novas propriedades de um certo tipo sejam adicionadas. Exemplo:
@@ -28,7 +29,8 @@ interface User {
 }
 
 /**
- * Onde temos uma interface User na qual, além das 2 propriedades que definimos, deixamos em aberto a possibilidade de N novas propriedades de nome (propName) string 
+ * Onde temos uma interface User na qual, além das 2 propriedades que definimos, 
+ * deixamos em aberto a possibilidade de N novas propriedades de (propName) string 
  * cujo valor também é do tipo string. Poderiamos implementar algo do tipo
  */
 
@@ -41,7 +43,8 @@ interface User {
 
 
 // ---- Readonly Properties 
-// Além disso, podemos também definir que uma propriedade é apenas para leitura, pode atribuir um valor a ela apenas uma vez. Segue o exemplo:
+// Além disso, podemos também definir que uma propriedade é apenas para leitura, pode atribuir um valor a ela apenas uma vez. 
+//Segue o exemplo:
 
 interface Avengers {
   readonly thanos: string 
@@ -51,7 +54,8 @@ let theEnd: Avengers = { thanos: "I'm inevitable" }
 theEnd.thanos = "I'm not inevitable" // erro - Cannot assign to 'thanos' because it is a read-only property.ts(2540)
 
 // --------- Implements 
-// Utilizando conceitos já comuns em linguagens tipadas como C# e Java, temos a possibilidade de reforçar que uma classe (ou uma função) atenda os critérios definidos
+// Utilizando conceitos já comuns em linguagens tipadas como C# e Java, 
+// temos a possibilidade de reforçar que uma classe (ou uma função) atenda os critérios definidos
 // em uma interface. 
 // Exemplo:
 

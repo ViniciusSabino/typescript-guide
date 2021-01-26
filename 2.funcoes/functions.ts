@@ -1,4 +1,4 @@
-//----- Funções: No caso das funções, precisamos defini a tipagem dos argumentos e do retorno. Exemplos:
+//----- Funções: No caso das funções, precisamos definir a tipagem dos argumentos e do retorno. Exemplos:
 const overKillConsoleLog = (arg1: string, arg2: number): void => {
   console.log(arg1, arg2)
 }

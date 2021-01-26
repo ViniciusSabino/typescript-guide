@@ -1,7 +1,7 @@
 // -- Generics 
 // -- Vimos diversas formas até agora de como realizar a tipagem como Typescript, até mesmo em casos mais complexos como funções e objetos
 // mas e se, por exemplo, não soubermos, durante o desenvolvimento, qual tipo o argumento e o retorno de uma função devem receber? 
-// Para sso utilizamos os Generics. Exemplo:
+// Para isso utilizamos os Generics. Exemplo:
 
 const mibr: Array<string> = ["Fallen", "Fer", "Taco", "Kng", "Trk"];
 
@@ -17,3 +17,6 @@ function example<T>(arg: T): T {
 
 const value = example<string>("rocketseat");
 console.log(value) // Irá printar o valor "rocketseat"
+
+const value2: string = example<string>(2)
+// Argument of type 'number' is not assignable to parameter of type 'string'.ts(2345)

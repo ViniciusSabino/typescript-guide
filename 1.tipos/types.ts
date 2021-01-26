@@ -28,12 +28,13 @@ const educationTeam2: Array<string> = ['Vinne', 'Dani', 'Doge'];
 // -----Tuples
 
 /**
- * Utilizado quando queremos trabalhar com arrays que sabemos exatamente quantos elementos ele terá, mas que não serão necessiariamente do mesmo tipo. Exemplo: 
+ * Utilizado quando queremos trabalhar com arrays que sabemos exatamente quantos elementos ele terá, 
+ * mas que não serão necessiariamente do mesmo tipo. Exemplo: 
  */
 
 const eitaGiovanna: [string, boolean] = ['O forninho caiu?', true];
 
-//------ Enums: Utilizado quando queremos dar um nome mais amiguavel a um conjunt de valores. Exemplo:
+//------ Enums: Utilizado quando queremos dar um nome mais amiguavel a um conjunto de valores. Exemplo:
 
 enum Techs {
   React, 
